@@ -4,20 +4,25 @@ using UnityEngine;
 
 public class InteractionArea : MonoBehaviour
 {
-    public int score = 0;
-    public UIManager uiManagerScript;
+    public int scoreMax = 5;
+    private int currentScore = 0;
+    private UIManager uiManager;
 
-    void Awake (){
-        uiManagerScript = GameObject.FindObjectOfType<UIManager>();
+    void Awake()
+    {
+        uiManager = FindObjectOfType<UIManager>();
     }
-
 
     void OnTriggerEnter(Collider other)
-    { if(other.gameObject.CompareTag("Collectible")){
-        Destroy(other.gameObject);
-        score ++;
-        uiManagerScript.UpdateScore(score);
-    }
-       
+    {
+        if (other.gameObject.CompareTag("Collectible"))
+        {
+            Destroy(other.gameObject);
+            currentScore++;
+            uiManager.UpdateScore(currentScore);
+
+            if (currentScore >= scoreMax)
+                GameManager.Instance.TriggerWin();
+        }
     }
 }

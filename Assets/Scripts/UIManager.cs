@@ -25,4 +25,18 @@ public class UIManager : MonoBehaviour
         
         txtTimer.text = "Time: " + Mathf.CeilToInt(time).ToString();
     }
+
+    [Header("Pantallas de fin de juego")]
+public GameObject panelWin;
+public GameObject panelGameOver;
+
+public void MostrarPantallaWin()
+{
+    panelWin.SetActive(true);
+}
+
+public void MostrarPantallaGameOver()
+{
+    panelGameOver.SetActive(true);
+}
 }
