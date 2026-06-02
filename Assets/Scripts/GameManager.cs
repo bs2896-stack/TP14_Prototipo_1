@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        Time.timeScale = 1; // por si viene de un reinicio
+        Time.timeScale = 1; 
     }
 
     void Start()
