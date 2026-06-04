@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 95ac320451aca0447a17e196afa42175
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.001
+    100006: Paredes
+    100008: Piso
+    100010: Pizarron
+    100012: PuertaGrande
+    100014: Techo
+    100016: Ventanas
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.001
+    400006: Paredes
+    400008: Piso
+    400010: Pizarron
+    400012: PuertaGrande
+    400014: Techo
+    400016: Ventanas
+    2100000: No Name
+    2100002: Material.009
+    2100004: Material.010
+    2100006: Pared
+    2100008: Material.004
+    2100010: Material.005
+    2100012: Piso
+    2100014: Material.003
+    2100016: Material.002
+    2100018: Material.007
+    2100020: Material.008
+    2100022: Techo
+    2100024: Ventana_Marco
+    2100026: Ventana_vidrio
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Paredes
+    2300006: Piso
+    2300008: Pizarron
+    2300010: PuertaGrande
+    2300012: Techo
+    2300014: Ventanas
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Paredes
+    3300006: Piso
+    3300008: Pizarron
+    3300010: PuertaGrande
+    3300012: Techo
+    3300014: Ventanas
+    4300000: Cube
+    4300002: Cube.001
+    4300004: Paredes
+    4300006: Piso
+    4300008: Pizarron
+    4300010: PuertaGrande
+    4300012: Techo
+    4300014: Ventanas
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: a55514573bd321440838d5a34f8abb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 8753fe7dd3c0dcf418707ae4f6073825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 9249886491ab019499b0f51cb466bf2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: d0c7c6627c9d8b04bba544390ed85e92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 32ea04d99f81f6f45bed3b6739dd5fa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 86c3905d8acaaf64db63eedb2c3ca8dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 6210acd1ce3127543ba33e73d9933c46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 067a8f7137c1fd843b4d6f34a9ebf263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 2b1fa2af03e840945a5267f71ffc3941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared
+    second: {fileID: 2100000, guid: c20bd431bbb7d0746a9c6045db1d99e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso
+    second: {fileID: 2100000, guid: cc2fff8cc8ed802408802f74fa8cb863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2100000, guid: 6e5263dc323033948966797d09b5483e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_Marco
+    second: {fileID: 2100000, guid: efa9f27cb30663a42984380880b35709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventana_vidrio
+    second: {fileID: 2100000, guid: d4ce0629ed22d754eaf45b5e4ebcd5ed, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
